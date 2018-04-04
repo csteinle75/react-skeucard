@@ -1,0 +1,28 @@
+#cssCard{
+	/*dimensions in inches 2.125 3.375*/
+	/*in px: 17w 27h*/
+	width: 378px;
+	height: 238px;
+	position: relative;
+}
+
+#cardFront, #cardBack{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+#cardFront{
+	background-color: #fdd;
+}
+#cardBack{
+	background-color: #ddf;
+	z-index: -1
+}
+#cardType{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
